@@ -1,0 +1,14 @@
+package HuffmanProblem;
+
+import java.util.Comparator;
+
+public class MyComparator implements Comparator<HuffmanNode> {
+
+	@Override
+	public int compare(HuffmanNode x, HuffmanNode y) {
+		// TODO Auto-generated method stub
+		return Integer.compare(x.data, y.data);
+	}
+
+	
+}
